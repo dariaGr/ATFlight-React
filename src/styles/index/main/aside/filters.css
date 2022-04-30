@@ -1,0 +1,49 @@
+.aside__filters{
+  margin-top: 73px;
+}
+
+.aside__filters-header{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.aside__filters-title{
+  line-height: 100%;
+}
+
+.aside__filters-header img{
+  width: 20px;
+  height: 16px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.aside__filters-item{
+  margin-bottom: 17px;
+}
+
+.aside__filters-button{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+  background: white;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+
+.aside__filters-dropdown.aside__filters-dropdown_shown{
+  display: flex;
+  flex-direction: column;
+}
+
+.aside__filters-dropdown{
+  margin-top: 10px;
+  display: none;
+}
+
+.dropdowned{
+  transform: rotate(180deg);
+}
